@@ -1,0 +1,260 @@
+@charset "utf-8";
+/*調整聊天背景顏色*/
+/*Modify chatroom background color*/
+body,
+.nickname,
+.input-message,
+.list,
+.list-ctn,
+.dropdown-menu,
+.sticker-ctn {
+  background: rgba(100,100,100,.2);
+}
+/*調整滑鼠移到訊息區塊上的背景顏色*/
+/*Modify mouse hover background color*/
+.nav>li>a:focus,
+.nav>li>a:hover,
+.block {
+  background: #000;
+}
+.sticker-tab a:hover,
+.sticker-img:hover {
+  background-color: rgb(0,0,0);
+}
+/*調整表情符號區塊背景嚴色*/
+/*Modify sticker block background color*/
+.sticker-panel {
+  background: #000;
+}
+/*調整訊息區塊底色樣式*/
+/*Modify message background color*/
+.message-ctn {
+  border-top: rgba(255,255,255,.2) solid 1px;
+  border-bottom: rgba(255,255,255,.2) solid 1px;
+  background: transparent;
+}
+/*調整狀態訊息文字顏色*/
+/*Modify status message text color*/
+.status-message,
+.status-message a,
+.status-message a:hover {
+  color: #f5e384;
+}
+/*調整 input 框的顏色*/
+/*Modify input element background color*/
+.form-control {
+  background: rgba(255,255,255,.2);
+  border: 1px solid rgba(255,255,255,0);
+}
+/*調整 input 區塊提示文字樣式*/
+/*Modify input element placeholder text color*/
+.form-control::-moz-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color:#999;
+}
+.form-control:-ms-input-placeholder {
+  color:#999;
+}
+/*調整表情符號樣式*/
+/*Modify sticker button style*/
+.sticker-btn {
+  background: url('../images/emotion-w.svg') no-repeat top left;
+  opacity: 1;
+}
+/*調整設定選單的邊框顏色*/
+/*Modify setting dropdown menu border color*/
+.dropdown-menu {
+  border: 1px solid rgba(255,255,255,.2);
+}
+.dropdown-menu .divider {
+  background-color: rgba(255,255,255,.2);
+}
+/*調整設定按鈕的顏色*/
+/*Modify setting button color*/
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover,
+.btn-default.active,
+.btn-default:active,
+.open>.dropdown-toggle.btn-default {
+  background: rgba(255,255,255,.2);
+  background-image: none;
+  border: 1px solid rgba(255,255,255,0);
+  color: #fff;
+}
+/*調整設定選單滑鼠移過去的背景顏色*/
+/*Modify setting dropdown menu mouse hover background color*/
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  background: rgba(255,255,255,.2);
+}
+/*調整文字顏色*/
+/*Modify text color*/
+body,
+.close,
+.close:focus,
+.close:hover,
+.form-control,
+.dropdown-menu>li>a,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.btn-default,
+.btn-pin,
+.btn-unpin {
+  color: #fff;
+  opacity: 1;
+  text-shadow: none;
+}
+/*調整次要文字顏色，包含 Tab 、訊息時間文字和聊天室設定標題*/
+/*Modify secondary text color, include tab text color and message date text color and setting title color.*/
+.nav>li>a,
+.time,
+.dropdown-header {
+  color: #999;
+}
+/*調整在線名單 Tab 底線樣式*/
+/*Modify tab bottom border color*/
+.list-tab {
+  border-color: rgba(255,255,255,.2);
+}
+/*修改這裡調整訊息文字字級*
+/*Modify tab bottom border color*/
+.message-ctn .block {
+  font-size: 18px;
+  opacity: 1;
+  text-shadow: none;
+  line-height: 1.4;
+}
+/*修改這裡調整文字訊息的間距*
+/*Modify message margin*/
+.block {
+  margin-bottom: 5px;
+}
+/*文字特別強調的顏色*/
+/*Modify primary color*/
+a,
+a:hover,
+.chatroom-num span {
+  color: #51C0C2;
+  text-decoration: none;
+}
+/*Tab 特別強調的顏色*/
+/*Modify active tab color*/
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #51C0C2;
+  background-color: transparent;
+  border-bottom: 3px solid #51C0C2;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+/*按鈕特別強調的顏色*/
+/*Modify primary button background color*/
+.btn-primary {
+  background-color: #51C0C2;
+  border-color: #51C0C2;
+  background-image: none;
+}
+/*按鈕滑鼠移過去的顏色*/
+/*Modify primary button hover background color*/
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary,
+.open > .dropdown-toggle.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  background-color: #2D8787;
+  border-color: #2D8787;
+}
+/*設定選單特別強調的背景顏色*/
+/*Modify setting dropdown menu active background color*/
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+  background-color: #51C0C2;
+}
+/*卷軸顏色樣式*/
+/*Modify scrollbar color*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0);
+}
+:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, .2);
+  border-radius: 5px;
+}
+/*錯誤提示顏色樣式*/
+/*error note color*/
+.submit-note {
+  background: #51c0c2;
+}
+.submit-note:before {
+  border: 5px solid #51c0c2;
+  border-color: transparent transparent #51c0c2 transparent;
+}
+/*置頂推廣文案樣式*/
+/*Promo message style*/
+.block.pin-message,
+.block.pin-message:hover {
+  background-color: #2db1b3;
+  margin-bottom: 0;
+  border: 1px solid #2db1b3;
+  border-color: #000 #2db1b3 #2db1b3 #2db1b3;
+  color: #fff;
+  max-height: 60px;
+}
+.block.pin-message .face {
+  top: 6px;
+}
+/*隱藏頭圖樣式*/
+/*Hide face image*/
+.face,
+.face-img {
+  display: none;
+}
+.block,
+.block.pin-message,
+.block.pin-message:hover{
+  padding: 7px 5px 2px 7px;
+}
+/*歡迎詞顏色樣式*/
+/*Welcome message style*/
+.block.welcome-message,
+.block.welcome-message:hover {
+  background-color: #333333;
+  border: 1px solid #3e3d3d;
+  color: #f5e384;
+  padding: 7px 5px 2px 7px;
+}
+.welcome-message a,
+.welcome-message a:hover {
+  color: #f5e384;
+}
